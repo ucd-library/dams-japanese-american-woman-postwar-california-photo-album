@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:Collection",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "ucdlib:hasLabel": {
+    "@id": "@base:/labels"
+  },
+  "schema:name": "Japanese-American Woman in Postwar California Photograph Album",
+  "schema:description": "This photograph album documents the midcentury life, family, friends, and classmates of a young Japanese-American woman identified only as \"Annie.\" Many of the images are portraits, with a great deal of them inscribed to Annie in the image area, including other Japanese-American men and women, as well as some white women.\\\\n\\\\nThe album includes a series of about twenty portraits of Annie's friends and classmates which also include printed name cards mounted with the portraits; searches of some of the names indicate the subjects in the present album most likely emanate from in and around Sacramento, California, though there is some indication here that Annie may have had a Chicago connection. In addition to the portraits, the album includes images of Annie and others posed with family (with two images inscribed to Annie from her brother Jimmie), with cars sporting California license plates, enjoying time at the beach (likely Santa Monica), at school and camp, and more.\\\\n\\\\nA short series of pictures features Annie and a friend in traditional Japanese dress at some sort of celebration. Two of the images feature young Japanese-American men in military uniforms. They seem to date from the early-1950s, when Annie appears to be in high school, or perhaps college.\\\\n\\\\nThe collection's finding aid is available at the Online Archive of California (https://oac.cdlib.org/findaid/ark:/13030/c8fj2qt8/).",
+  "schema:creator": "Annie",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1948-1952"
+  },
+  "schema:identifier": [
+    "MC-372",
+    "ark:/87293/d3gx45301"
+  ],
+  "schema:image": {
+    "@id": "info:fedora/item/ark:/87293/d3028pm2g/media/images/MC-372_0001.tif"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:publisher": [
+    "UC Davis Library, Archives and Special Collections",
+    {
+      "@id": "http://id.loc.gov/authorities/names/no2008108707"
+    }
+  ],
+  "schema:sdDatePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "2025"
+  },
+  "schema:sdLicense": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:sdPublisher": "UC Davis Library, Archives and Special Collections",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1204928",
+      "name": "California"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1205542",
+      "name": "California--Sacramento"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/981441",
+      "name": "Japanese Americans"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1204506",
+      "name": "California--Santa Monica"
+    }
+  ]
+}

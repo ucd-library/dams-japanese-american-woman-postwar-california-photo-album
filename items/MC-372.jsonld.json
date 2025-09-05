@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:Book",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    }
+  ],
+  "schema:creator": "Annie",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1948-1952"
+  },
+  "schema:identifier": [
+    "ark:/87293/d3c53f86k"
+  ],
+  "schema:image": {
+    "@id": "@base:/media/images/MC-372_0001.tif"
+  },
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:name": "Japanese-American Woman in Postwar California Photograph Album",
+  "schema:publisher": "Annie",
+  "schema:sdDatePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "2025"
+  },
+  "schema:sdLicense": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:sdPublisher": "UC Davis Library, Archives and Special Collections",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1204928",
+      "name": "California"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1205542",
+      "name": "California--Sacramento"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/981441",
+      "name": "Japanese Americans"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1204506",
+      "name": "California--Santa Monica"
+    }
+  ]
+}

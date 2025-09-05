@@ -1,0 +1,28 @@
+[
+  {
+    "@id": "",
+    "@context": {
+      "ucdlib": "http://digital.ucdavis.edu/schema#"
+    },
+    "@type": [
+      "ucdlib:LabelService",
+      "ucdlib:Service"
+    ]
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1204928",
+    "http://schema.org/name": "California"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1205542",
+    "http://schema.org/name": "California--Sacramento"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/981441",
+    "http://schema.org/name": "Japanese Americans"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1204506",
+    "http://schema.org/name": "California--Santa Monica"
+  }
+]
